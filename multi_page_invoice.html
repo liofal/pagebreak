@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-print-color-adjust: exact;
+        }
+    
+        .page {
+            width: auto;
+            min-height: 297mm;
+            padding: 15mm;
+            margin: 0 auto;
+            background: white;
+        }
+    
+        .table {
+            width: 100%;
+            max-width: 100%; /* Ensure table does not exceed page width */
+            border-collapse: collapse;
+        }
+    
+        .table th, .table td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    
+        .table th {
+            background-color: #f2f2f2;
+        }
+    
+        @media print {
+            body, .page {
+                margin: 0;
+                box-shadow: none;
+            }
+    
+            .page {
+                page-break-after: always;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h2>Invoice</h2>
+        <!-- Company and Customer Info -->
+        <p>Company Name: XYZ Corporation</p>
+        <p>Customer Name: John Doe</p>
+        <!-- Invoice Table -->
+        <table class="table">
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+
+            <tr>
+                <td>Product 1</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 2</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 3</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 4</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 5</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 6</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 7</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 8</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 9</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 10</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 11</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 12</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 13</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 14</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 15</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 16</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 17</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 18</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 19</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 20</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 21</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 22</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 23</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 24</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 25</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 26</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 27</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 28</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 29</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+            <tr>
+                <td>Product 30</td>
+                <td>2</td>
+                <td>$50</td>
+                <td>$100</td>
+            </tr>
+    
+        </table>
+    </div>
+</body>
+</html>
